@@ -9,7 +9,7 @@ public class spawnerAttacherow : MonoBehaviour {
     [SerializeField]
         private GameObject left_Spawner, right_Spawner;
 
-    private float left_X_Min = -2.4f, left_X_Max = -1.5f, right_X_Min = 2.4f, right_X_Max = 1.5f;
+    private float left_X_Min = -2.4f, left_X_Max = -1f, right_X_Min = 2.4f, right_X_Max = 1f;
     private float y_Threshold = 4.5f;
     private float last_Y;
 
