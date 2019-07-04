@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ExtraFuelBoost
   - BG
+  - StarBoost
   layers:
   - Default
   - TransparentFX

@@ -32,9 +32,9 @@ public class spawnerAttacherow : MonoBehaviour {
         spawner();
     }
     //spawner spawn xD
-    void spawner()
+    public void spawner()
     {
-        Vector2 temp = transform.position;
+        Vector2 temp = Vector2.zero;
         GameObject newSpawn = null;
 
         for(int i = 0; i < spawn_Count; i++)
@@ -55,8 +55,8 @@ public class spawnerAttacherow : MonoBehaviour {
                 newSpawn = Instantiate(left_Spawner, temp, Quaternion.identity);
             }
             newSpawn.transform.parent = spawner_Parent;
-            //roznica w odleglosci platoformy od rakiety
-            last_Y += y_Threshold;
+            //roznica w odleglosci platoformy od rakiety spawn
+            last_Y += y_Threshold; 
             spawner_Spawned++;
 
         }

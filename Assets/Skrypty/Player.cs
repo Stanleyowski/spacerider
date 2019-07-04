@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour {
     private Rigidbody2D rocket;
     public float rocketSpeed = 2f;
-    public float fuelBoost= 10f;
+    public float starBoost= 10f;
     public float extraFuelBoost = 15f;
     private bool initialBoost;
     private int boostCount;
@@ -19,11 +19,31 @@ public class Player : MonoBehaviour {
 	}
 	
 	
-	void Update () {
-		
+	void FixedUpdate () {
+        Flight();
 	}
-    private void OnTriggerEnter2D(Collider2D target)
+    void Flight()
     {
+
+        if (lose)
+            return;
+
+        if (Input.GetAxisRaw("Horizontal") > 0) // jeśli naciśniemy prawy/d zwróci 1
+        {
+            rocket.velocity = new Vector2(rocketSpeed, rocket.velocity.y);
+        }
+        else
+        {
+            if (Input.GetAxisRaw("Horizontal") < 0)// jeśli naciśniemy lewy/a zwróci -1
+            {
+                rocket.velocity = new Vector2(-rocketSpeed, rocket.velocity.y);
+            }
+        }
+    }
+    void OnTriggerEnter2D(Collider2D target)
+    {
+        if (lose)
+            return;
         if(target.tag == "ExtraFuelBoost")
         {
             if (!initialBoost) //jeśli nie ma boosta na start !
@@ -36,7 +56,27 @@ public class Player : MonoBehaviour {
                 //wyjście z triggera ze wzgledu na boost startowy
 
                 return;
-            }
+            }// start
+
+           
+        }
+        if (target.tag == "StarBoost")
+        {
+            rocket.velocity = new Vector2(rocket.velocity.x, starBoost);
+            target.gameObject.SetActive(false);
+            boostCount++;
+        }
+        if (target.tag == "ExtraFuelBoost")
+        {
+            rocket.velocity = new Vector2(rocket.velocity.x, extraFuelBoost);
+            target.gameObject.SetActive(false);
+            boostCount++;
+        }
+        if(boostCount ==2)
+        {
+            boostCount = 0;
+            spawnerAttacherow.instance.spawner();
         }
     } // odpala się na trigger
 }
+
