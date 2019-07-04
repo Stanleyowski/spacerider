@@ -3183,7 +3183,7 @@ GameObject:
   m_Layer: 0
   m_Name: spawaner
   m_TagString: Untagged
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4399,6 +4399,16 @@ Prefab:
     - target: {fileID: 4105030582902000, guid: 37501dd457e725a47b732bb012b9a56a, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 61001815724633346, guid: 37501dd457e725a47b732bb012b9a56a,
+        type: 2}
+      propertyPath: m_Size.y
+      value: 1.8351228
+      objectReference: {fileID: 0}
+    - target: {fileID: 61001815724633346, guid: 37501dd457e725a47b732bb012b9a56a,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.9743572
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37501dd457e725a47b732bb012b9a56a, type: 2}
