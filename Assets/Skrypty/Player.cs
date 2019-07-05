@@ -77,6 +77,11 @@ public class Player : MonoBehaviour {
             boostCount = 0;
             spawnerAttacherow.instance.spawner();
         }
+        if(target.tag =="Upadek" || target.tag == "Meteor")
+        {
+            lose = true;
+            gameManager.instance.Restart();
+        }
     } // odpala się na trigger
 }
 

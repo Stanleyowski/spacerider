@@ -9,6 +9,8 @@ TagManager:
   - StarBoost
   - Spawner
   - Meteor
+  - Planeta
+  - Upadek
   layers:
   - Default
   - TransparentFX
