@@ -51,7 +51,7 @@ public class Player : MonoBehaviour {
                 initialBoost = true;
                 rocket.velocity = new Vector2(rocket.velocity.x, 18f);
                 target.gameObject.SetActive(false);
-                //dźwięk
+                soundManager.instance.boostSoundEfects();
 
                 //wyjście z triggera ze wzgledu na boost startowy
 
@@ -65,12 +65,14 @@ public class Player : MonoBehaviour {
             rocket.velocity = new Vector2(rocket.velocity.x, starBoost);
             target.gameObject.SetActive(false);
             boostCount++;
+            
         }
         if (target.tag == "ExtraFuelBoost")
         {
             rocket.velocity = new Vector2(rocket.velocity.x, extraFuelBoost);
             target.gameObject.SetActive(false);
             boostCount++;
+            soundManager.instance.boostSoundEfects();
         }
         if(boostCount ==2)
         {
@@ -81,6 +83,7 @@ public class Player : MonoBehaviour {
         {
             lose = true;
             gameManager.instance.Restart();
+            soundManager.instance.gameOverSoundEfects();
         }
     } // odpala się na trigger
 }
