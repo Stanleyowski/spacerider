@@ -19,9 +19,12 @@ public class spawnerAttacherow : MonoBehaviour {
     [SerializeField]
     private Transform spawner_Parent;
 
-    // todo meteoryty jako przeszkody
-	
-	void Awake () {
+    [SerializeField]
+    private GameObject meteor;
+    public float meteor_Y = 6;
+    private float meteor_x_Min = -1.677f,  meteor_x_Max = 0.154f;
+
+    void Awake () {
         if (instance == null)
             instance = this;
 		
@@ -60,8 +63,20 @@ public class spawnerAttacherow : MonoBehaviour {
             spawner_Spawned++;
 
         }
+        if (Random.Range(0, 2) > 0)
+        {
+            spawnMeteor();
+        }
     }
 
+    void spawnMeteor()
+    {
+        Vector2 temp = transform.position;
+        temp.x = Random.Range(meteor_x_Min, meteor_x_Max);
+        temp.y += meteor_Y;
+        GameObject nowyMeteor = Instantiate(meteor, temp, Quaternion.identity);
+        nowyMeteor.transform.parent = spawner_Parent;
+    }
 
     void Update () {
 		
