@@ -1014,7 +1014,7 @@ MonoBehaviour:
     type: 2}
   spawn_Count: 8
   spawner_Parent: {fileID: 1638921996}
-  meteor: {fileID: 1862374030399980, guid: d0e8b4f803cc1804b91da896b91811aa, type: 2}
+  meteor: {fileID: 1492930354277596, guid: 414efed2376f5174c86b80bd0c5dcd7b, type: 2}
   meteor_Y: 6
 --- !u!1 &1265391883
 GameObject:
@@ -1417,11 +1417,6 @@ Prefab:
     - target: {fileID: 4444577552621594, guid: ea6bd954b58c24246b6ed5bc4347a405, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 61740089827816838, guid: ea6bd954b58c24246b6ed5bc4347a405,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea6bd954b58c24246b6ed5bc4347a405, type: 2}

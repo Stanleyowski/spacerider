@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 61749056920075224}
   m_Layer: 0
   m_Name: meteor
-  m_TagString: Meteor
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,13 +34,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1862374030399980}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.46, y: 1.19, z: 0}
-  m_LocalScale: {x: 0.56359, y: 0.56359, z: 0.56359}
+  m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
+  m_LocalPosition: {x: 1.9441664, y: -0.5164989, z: 0}
+  m_LocalScale: {x: 0.39548236, y: 0.39548236, z: 0.39548236}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
 --- !u!61 &61749056920075224
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -101,7 +101,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: ad6c8a4e5d8c021449cb7fbc109bbef1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cc437a61cf1106248838834badb9363e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
