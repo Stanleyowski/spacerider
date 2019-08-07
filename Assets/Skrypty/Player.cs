@@ -10,16 +10,26 @@ public class Player : MonoBehaviour {
     private bool initialBoost;
     private int boostCount;
     private bool lose;
+    private GameObject fire;
+    
 
 
-	
-	void Awake () {
+
+
+
+
+
+
+    void Awake () {
         rocket = GetComponent<Rigidbody2D>();
-		
-	}
+        fire = gameObject.transform.GetChild(0).gameObject;
+       
+
+    }
 	
 	
 	void FixedUpdate () {
+
         Flight();
 	}
     void Flight()
@@ -42,6 +52,7 @@ public class Player : MonoBehaviour {
     }
     void OnTriggerEnter2D(Collider2D target)
     {
+
         if (lose)
             return;
         if(target.tag == "ExtraFuelBoost")
@@ -84,7 +95,12 @@ public class Player : MonoBehaviour {
             lose = true;
             gameManager.instance.Restart();
             soundManager.instance.gameOverSoundEfects();
+            fire.SetActive(false);
+
+
         }
+      
+
     } // odpala się na trigger
 }
 

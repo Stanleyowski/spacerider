@@ -11,6 +11,7 @@ TagManager:
   - Meteor
   - Planeta
   - Upadek
+  - Fire
   layers:
   - Default
   - TransparentFX
