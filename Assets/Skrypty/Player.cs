@@ -11,7 +11,7 @@ public class Player : MonoBehaviour {
     private int boostCount;
     private bool lose;
     private GameObject fire;
-    
+    private scoreManager scoreManager;
 
 
 
@@ -23,6 +23,7 @@ public class Player : MonoBehaviour {
     void Awake () {
         rocket = GetComponent<Rigidbody2D>();
         fire = gameObject.transform.GetChild(0).gameObject;
+        scoreManager = FindObjectOfType<scoreManager>();
        
 
     }
@@ -96,6 +97,7 @@ public class Player : MonoBehaviour {
             gameManager.instance.Restart();
             soundManager.instance.gameOverSoundEfects();
             fire.SetActive(false);
+            scoreManager.scoreIncreasing = false;
 
 
         }
