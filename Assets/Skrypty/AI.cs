@@ -23,6 +23,7 @@ public class AI {
             return InputProvider.Direction.Left;
     }
 
+
     Transform FindClosestToPlayer(GameObject[] boosts) {
         if (boosts == null || boosts.Length == 0)
             return null;
