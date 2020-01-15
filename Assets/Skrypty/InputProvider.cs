@@ -16,7 +16,7 @@ using UnityEngine;
         if (mode == Mode.Manual) 
             return GetManualHorizontalInput();
         
-        else return ai.WhereShoulIFly();
+        else return ai.WhereShouldIFly();
     }
 
     static Direction GetManualHorizontalInput() {
