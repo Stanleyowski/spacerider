@@ -12,11 +12,14 @@ using UnityEngine;
     AI ai = new AI();
 
     public Mode mode = Mode.Manual;
-    public Direction GetHorizontalInput() {
-        if (mode == Mode.Manual) 
+    public Direction GetHorizontalInput(Rigidbody2D rocket) {
+        if (mode == Mode.Manual)
             return GetManualHorizontalInput();
-        
-        else return ai.WhereShouldIFly();
+
+        else if (rocket.velocity.y > 3) 
+            return ai.WhereShouldIFly();
+        else return ai.WhereShouldIFlyDown();
+            
     }
 
     static Direction GetManualHorizontalInput() {
