@@ -12,12 +12,12 @@ public class Player : MonoBehaviour {
     int boostCount;
     bool lose;
     GameObject fire;
-    scoreManager scoreManager;
+    ScoreManager scoreManager;
 
     void Awake() {
         rocket = GetComponent<Rigidbody2D>();
         fire = gameObject.transform.GetChild(0).gameObject;
-        scoreManager = FindObjectOfType<scoreManager>();
+        scoreManager = FindObjectOfType<ScoreManager>();
     }
 
     void FixedUpdate() {
@@ -73,7 +73,7 @@ public class Player : MonoBehaviour {
 
         if (target.tag == "Upadek" || target.tag == "Meteor") {
             lose = true;
-            gameManager.instance.Restart();
+            GameManager.instance.Restart();
             soundManager.instance.gameOverSoundEfects();
             fire.SetActive(false);
             scoreManager.scoreIncreasing = false;
