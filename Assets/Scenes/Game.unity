@@ -6646,6 +6646,7 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 114690670263756292, guid: ea6bd954b58c24246b6ed5bc4347a405,
         type: 3}
       propertyPath: inputProvider.mode
@@ -6658,6 +6659,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
 =======
 >>>>>>> parent of 52b5db7... dodanie do AI obierania poniższych boostów
+>>>>>>> parent of 52b5db7... dodanie do AI obierania poniższych boostów
+=======
 >>>>>>> parent of 52b5db7... dodanie do AI obierania poniższych boostów
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea6bd954b58c24246b6ed5bc4347a405, type: 3}
