@@ -28,7 +28,7 @@ public class Player : MonoBehaviour {
         if (lose)
             return;
 
-        var horizontalInput = inputProvider.GetHorizontalInput(rocket);
+        var horizontalInput = inputProvider.GetHorizontalInput();
         
         if (horizontalInput == InputProvider.Direction.Rigth)
             rocket.velocity = new Vector2(rocketSpeed, rocket.velocity.y);
