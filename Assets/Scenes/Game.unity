@@ -81,7 +81,11 @@ LightmapSettings:
     m_PVRFilterTypeIndirect: 0
     m_PVRFilterTypeAO: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_PVRFilteringMode: 2
+=======
+    m_PVRFilteringMode: 1
+>>>>>>> parent of fbd5d93... Logging score
 =======
     m_PVRFilteringMode: 1
 >>>>>>> parent of fbd5d93... Logging score
@@ -782,8 +786,12 @@ Prefab:
     m_RemovedComponents:
     - {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 3}
   m_RootGameObject: {fileID: 676164011}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
+>>>>>>> parent of fbd5d93... Logging score
 =======
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
 >>>>>>> parent of fbd5d93... Logging score
@@ -843,10 +851,13 @@ Prefab:
     m_RemovedComponents:
     - {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 3}
   m_RootGameObject: {fileID: 660919915}
   m_IsPrefabAsset: 0
 =======
+=======
+>>>>>>> parent of fbd5d93... Logging score
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &602047466 stripped
@@ -854,6 +865,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4588556807853280, guid: a4b0ded60f53b564b942a95523f103f1,
     type: 2}
   m_PrefabInternal: {fileID: 1103859139}
+<<<<<<< HEAD
+>>>>>>> parent of fbd5d93... Logging score
+=======
 >>>>>>> parent of fbd5d93... Logging score
 --- !u!1 &609979545
 GameObject:
@@ -928,6 +942,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4588556807853280, guid: a4b0ded60f53b564b942a95523f103f1,
     type: 2}
   m_PrefabInternal: {fileID: 554616948}
+<<<<<<< HEAD
+>>>>>>> parent of fbd5d93... Logging score
+=======
 >>>>>>> parent of fbd5d93... Logging score
 --- !u!1001 &660284644
 Prefab:
@@ -983,6 +1000,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 3}
   m_RootGameObject: {fileID: 1168275170}
@@ -1075,6 +1093,10 @@ Transform:
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
   m_IsPrefabAsset: 0
 >>>>>>> parent of fbd5d93... Logging score
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
+  m_IsPrefabAsset: 0
+>>>>>>> parent of fbd5d93... Logging score
 --- !u!1001 &784964559
 Prefab:
   m_ObjectHideFlags: 0
@@ -1120,6 +1142,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 3}
   m_RootGameObject: {fileID: 1797179101}
   m_IsPrefabAsset: 0
@@ -1151,6 +1174,10 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
+  m_IsPrefabAsset: 0
+>>>>>>> parent of fbd5d93... Logging score
 =======
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
   m_IsPrefabAsset: 0
@@ -1300,6 +1327,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4588556807853280, guid: a4b0ded60f53b564b942a95523f103f1,
     type: 2}
   m_PrefabInternal: {fileID: 1630303182}
+<<<<<<< HEAD
+>>>>>>> parent of fbd5d93... Logging score
+=======
 >>>>>>> parent of fbd5d93... Logging score
 --- !u!1001 &1063297541
 Prefab:
@@ -1342,8 +1372,12 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: ff2afe929b6b57a49be1fe142fdcd703, type: 3}
   m_RootGameObject: {fileID: 798049450}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: ff2afe929b6b57a49be1fe142fdcd703, type: 2}
+>>>>>>> parent of fbd5d93... Logging score
 =======
   m_SourcePrefab: {fileID: 100100000, guid: ff2afe929b6b57a49be1fe142fdcd703, type: 2}
 >>>>>>> parent of fbd5d93... Logging score
@@ -1403,8 +1437,12 @@ Prefab:
     m_RemovedComponents:
     - {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 3}
   m_RootGameObject: {fileID: 986825844}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
+>>>>>>> parent of fbd5d93... Logging score
 =======
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
 >>>>>>> parent of fbd5d93... Logging score
@@ -1464,7 +1502,11 @@ GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_PrefabInternal: {fileID: 660284644}
+=======
+  m_PrefabInternal: {fileID: 0}
+>>>>>>> parent of fbd5d93... Logging score
 =======
   m_PrefabInternal: {fileID: 0}
 >>>>>>> parent of fbd5d93... Logging score
@@ -1483,9 +1525,12 @@ Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_PrefabInternal: {fileID: 660284644}
   m_GameObject: {fileID: 1168275170}
 =======
+=======
+>>>>>>> parent of fbd5d93... Logging score
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1265391883}
 >>>>>>> parent of fbd5d93... Logging score
@@ -1517,6 +1562,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_GameObject: {fileID: 1265391883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1533,6 +1579,8 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
+=======
+>>>>>>> parent of fbd5d93... Logging score
   m_GameObject: {fileID: 1332741939}
   m_LocalRotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
   m_LocalPosition: {x: 0, y: -4.35, z: 0}
@@ -6178,6 +6226,7 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 3}
   m_RootGameObject: {fileID: 1813164202}
   m_IsPrefabAsset: 0
@@ -6224,6 +6273,8 @@ Transform:
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
+=======
+>>>>>>> parent of fbd5d93... Logging score
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1429770775 stripped
@@ -6231,6 +6282,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4588556807853280, guid: a4b0ded60f53b564b942a95523f103f1,
     type: 2}
   m_PrefabInternal: {fileID: 599682456}
+<<<<<<< HEAD
+>>>>>>> parent of fbd5d93... Logging score
+=======
 >>>>>>> parent of fbd5d93... Logging score
 --- !u!1 &1433699356
 GameObject:
@@ -6631,8 +6685,12 @@ Prefab:
     m_RemovedComponents:
     - {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 3}
   m_RootGameObject: {fileID: 213937357}
+=======
+  m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
+>>>>>>> parent of fbd5d93... Logging score
 =======
   m_SourcePrefab: {fileID: 100100000, guid: a4b0ded60f53b564b942a95523f103f1, type: 2}
 >>>>>>> parent of fbd5d93... Logging score
@@ -6672,6 +6730,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4588556807853280, guid: a4b0ded60f53b564b942a95523f103f1,
     type: 2}
   m_PrefabInternal: {fileID: 784964559}
+<<<<<<< HEAD
+>>>>>>> parent of fbd5d93... Logging score
+=======
 >>>>>>> parent of fbd5d93... Logging score
 --- !u!1001 &1786364254
 Prefab:
@@ -6797,6 +6858,9 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4444577552621594, guid: ea6bd954b58c24246b6ed5bc4347a405,
     type: 2}
   m_PrefabInternal: {fileID: 1786364254}
+<<<<<<< HEAD
+>>>>>>> parent of fbd5d93... Logging score
+=======
 >>>>>>> parent of fbd5d93... Logging score
 --- !u!1 &2141554836
 GameObject:
