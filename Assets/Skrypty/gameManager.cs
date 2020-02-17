@@ -2,12 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour {
-    //public static System.Action OnGameStartedEvent = () => { };
+public class gameManager : MonoBehaviour
+{
 
-    public static System.Action OnGameEndedEvent;
-    
-    public static GameManager instance;
+    public static gameManager instance;
+
+
+
+
 
     void Awake()
     {
@@ -18,12 +20,10 @@ public class GameManager : MonoBehaviour {
 
     public void Restart()
     {
-        OnGameEndedEvent();
         Invoke("LoadGame", 2f);
     }
     void LoadGame()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
-        //OnGameStartedEvent();
     }
 }
