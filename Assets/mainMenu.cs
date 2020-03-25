@@ -4,16 +4,19 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class mainMenu : MonoBehaviour {
-
-	public void PlayGame()
+    //odpowiada za włączenie kolejnej sceny czyli sceny z grą
+	public void StartGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-    public void QuitGame()
+
+    // odpowaida za wyłączenie gry
+    public void TurnOffGame()
     {
         Application.Quit();
         {
-            Debug.Log("Quit");
+            Debug.Log("Wyłączono");
         }
     }
+    // Dla opcji nie trzeba programować dodatkowego kodu - jest to umożliwione bezpośrednio z Unity
 }
